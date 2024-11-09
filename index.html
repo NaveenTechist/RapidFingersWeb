@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row main-bg" id="speedTypingTest">
+            <div class="col-12 heading">
+                <h1>Speed Typing Test</h1>
+                <p class="">On your fingers lets set Go!</p>
+            </div>
+            <div class="d-flex flex-row justify-content-center col-12">
+                <div class="">
+                    <img class="" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="" />
+                </div>
+                <div class="">
+                    <p id="timer" class="timer-edit"></p>
+                </div>
+            </div>
+            <div class="card-bg col-12">
+                <p id="quoteDisplay" class="h6"></p>
+                <textarea rows="7" cols="20" id="quoteInput" placeholder="Type here!!" class=""></textarea>
+            </div>
+            <div class="resSam col-12">
+                <p id="result" class=""></p>
+            </div>
+            <div class="buttons-edit pt-4 col-12">
+                <button type="" class="" id="submitBtn">SUBMIT</button> <button class="" type="" id="resetBtn">RESET</button>
+            </div>
+            <div class="d-flex flex-row justify-content-center ">
+                <div class="spinner-border d-none" role="status" id="spinner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
